@@ -1,0 +1,21 @@
+{% extends 'bookapp/home.html' %}
+
+{% block title %}
+    Edit
+{% endblock %}
+
+{% block header %}
+    <h2>Edit contact</h2>
+{% endblock %}
+
+{% block content %}
+    <div>
+        <div class="mt-md-5">
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" name="Save" class="btn btn-outline-success">Save</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

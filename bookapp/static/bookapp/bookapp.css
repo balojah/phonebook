@@ -1,0 +1,31 @@
+#inline {
+    display: none;
+}
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    padding: 20px;
+    width: 520px;
+    margin-left: -200px;
+    background: #0a0a0a;
+    border: 1px solid orange;
+    border-radius: 4px;
+    z-index: 99999;
+    opacity: 1;
+}
+.header {
+    padding: 10px 16px;
+    background: #050505;
+    color: #f1f1f1;
+}
+#sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.popup-close {
+position: absolute;
+top: 10px;
+right: 10px;
+}
